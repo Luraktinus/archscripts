@@ -1,0 +1,36 @@
+# Not old backups                                                               
+/opt/backup/arch-full*
+/opt/lueos-build/*
+/opt/sirius-backup/sirius-backup.tar.gz
+/home/lue/sirius/sirius-backup.tar.gz
+/home/lue/sirius/backups/*
+
+
+# Not temporary files
+/tmp/*
+/var/lib/systemd/coredump/*
+/proc/*
+/dev/*
+/sys/*
+/mnt/*
+/media/*
+/run/*
+
+# Not the cache for pacman
+/var/cache/pacman/pkg/*
+
+# Not parts of home dir
+/home/lue/.local/share/godot/templates/*
+/home/lue/Documents/Godot tutorials/*
+/home/lue/.lgp/postal2/*
+/home/lue/.PlayOnLinux/*
+/home/lue/.wine/*
+/home/lue/.cache/*
+/home/lue/.local/share/Steam/*
+/home/lue/.local/share/gnome-boxes/*
+/home/lue/.local/share/Trash/*
+/home/lue/Music/*
+/home/lue/Downloads/*
+/home/lue/Videos/*
+/home/lue/apps/*
+/home/lue/Documents/*
